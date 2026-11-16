@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sample work | InnDiTech</title>
+  <meta name="description" content="Live sample dashboards from InnDiTech in digital marketing, FinTech, and geographical and spatial data.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' x2='1'><stop stop-color='%236d5cff'/><stop offset='1' stop-color='%2318d4c4'/></linearGradient></defs><rect width='32' height='32' rx='8' fill='url(%23g)'/><text x='16' y='22' font-family='Arial' font-weight='800' font-size='15' fill='white' text-anchor='middle'>iD</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <header class="nav">
+    <div class="wrap">
+      <a href="index.html" class="brand"><span class="mark">iD</span><span>Inn<b>Di</b>Tech</span></a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="work.html" class="active">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="mailto:contact@innditech.com" class="btn btn-primary">Let's talk</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="orb o1"></div><div class="orb o2"></div>
+      <div class="wrap">
+        <span class="eyebrow">Sample work</span>
+        <h1>Evidence you can <span class="grad-text">click through.</span></h1>
+        <p>A selection of working dashboards built on public and simulated data. Each one answers a real business question, and you can open it and try it yourself.</p>
+        <div class="cat-nav">
+          <a href="#marketing">Digital marketing</a>
+          <a href="#fintech">FinTech</a>
+          <a href="#spatial">Geographical and spatial data</a>
+        </div>
+        <p class="wake-note">Dashboards open in a new tab. If one has been idle, it may take up to 30 seconds to wake up.</p>
+      </div>
+    </section>
+
+    <section class="work-cat" id="marketing">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Area 01</span>
+          <h2>Digital marketing</h2>
+          <p>Which channels, customers and campaigns actually earn their budget.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card work-card reveal">
+            <a class="shot" href="https://attribution-lab.streamlit.app" target="_blank" rel="noopener" aria-label="Open the Attribution Lab dashboard"><img src="assets/work/attribution-lab.webp" alt="Screenshot of the Attribution Lab dashboard" width="1280" height="800" loading="lazy"></a>
+            <div class="body">
+              <h3><a href="https://attribution-lab.streamlit.app" target="_blank" rel="noopener">Attribution Lab</a> <span class="live">LIVE</span></h3>
+              <p>Same conversions, seven attribution models: which channels really earned the sale?</p>
+              <p>Score each model against a simulated ground truth and see how much budget moves depending on the model you pick.</p>
+              <a class="open" href="https://attribution-lab.streamlit.app" target="_blank" rel="noopener">Open the live dashboard ↗</a>
+            </div>
+          </article>
+          <article class="card work-card reveal">
+            <a class="shot" href="https://marketing-mix-optimiser.streamlit.app" target="_blank" rel="noopener" aria-label="Open the Marketing mix optimiser dashboard"><img src="assets/work/marketing-mix-optimiser.webp" alt="Screenshot of the Marketing mix optimiser dashboard" width="1280" height="800" loading="lazy"></a>
+            <div class="body">
+              <h3><a href="https://marketing-mix-optimiser.streamlit.app" target="_blank" rel="noopener">Marketing mix optimiser</a> <span class="live">LIVE</span></h3>
+              <p>How much revenue each channel really drives, and where more spend stops paying, from a Bayesian model on simulated data.</p>
+              <p>Compare spend with contribution, read each channel’s saturation curve and test a new budget split.</p>
+              <a class="open" href="https://marketing-mix-optimiser.streamlit.app" target="_blank" rel="noopener">Open the live dashboard ↗</a>
+            </div>
+          </article>
+          <article class="card work-card reveal">
+            <a class="shot" href="https://uplift-targeting.streamlit.app" target="_blank" rel="noopener" aria-label="Open the Uplift targeting dashboard"><img src="assets/work/uplift-targeting.webp" alt="Screenshot of the Uplift targeting dashboard" width="1280" height="800" loading="lazy"></a>
+            <div class="body">
+              <h3><a href="https://uplift-targeting.streamlit.app" target="_blank" rel="noopener">Uplift targeting</a> <span class="live">LIVE</span></h3>
+              <p>Which customers does a marketing email actually persuade?</p>
+              <p>Compare two uplift models on a real randomised email test and choose how many customers to target for the most profit.</p>
+              <a class="open" href="https://uplift-targeting.streamlit.app" target="_blank" rel="noopener">Open the live dashboard ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-cat" id="fintech">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Area 02</span>
+          <h2>FinTech</h2>
+          <p>Risk, valuation and market signals built from public financial data.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card work-card reveal">
+            <a class="shot" href="https://bank-health-monitor.streamlit.app" target="_blank" rel="noopener" aria-label="Open the Bank health monitor dashboard"><img src="assets/work/bank-health-monitor.webp" alt="Screenshot of the Bank health monitor dashboard" width="1280" height="800" loading="lazy"></a>
+            <div class="body">
+              <h3><a href="https://bank-health-monitor.streamlit.app" target="_blank" rel="noopener">Bank health monitor</a> <span class="live">LIVE</span></h3>
+              <p>The warning signs behind Silicon Valley Bank’s collapse, applied to every large US bank.</p>
+              <p>Rank banks on run vulnerability, see how a failure-risk model scored the 2023 failures, and drill into any bank’s filings.</p>
+              <a class="open" href="https://bank-health-monitor.streamlit.app" target="_blank" rel="noopener">Open the live dashboard ↗</a>
+            </div>
+          </article>
+          <article class="card work-card reveal">
+            <a class="shot" href="https://fundamentals-screener.streamlit.app" target="_blank" rel="noopener" aria-label="Open the Fundamentals screener dashboard"><img src="assets/work/fundamentals-screener.webp" alt="Screenshot of the Fundamentals screener dashboard" width="1280" height="800" loading="lazy"></a>
+            <div class="body">
+              <h3><a href="https://fundamentals-screener.streamlit.app" target="_blank" rel="noopener">Fundamentals screener</a> <span class="live">LIVE</span></h3>
+              <p>Three classic accounting scores, computed from raw SEC filings for the largest US companies.</p>
+              <p>Screen and sort companies, see the line items behind any score, and check whether each score would have paid off.</p>
+              <a class="open" href="https://fundamentals-screener.streamlit.app" target="_blank" rel="noopener">Open the live dashboard ↗</a>
+            </div>
+          </article>
+          <article class="card work-card reveal">
+            <a class="shot" href="https://yield-curve-forecasting.streamlit.app" target="_blank" rel="noopener" aria-label="Open the Yield curve forecasting dashboard"><img src="assets/work/yield-curve-forecasting.webp" alt="Screenshot of the Yield curve forecasting dashboard" width="1280" height="800" loading="lazy"></a>
+            <div class="body">
+              <h3><a href="https://yield-curve-forecasting.streamlit.app" target="_blank" rel="noopener">Yield curve forecasting</a> <span class="live">LIVE</span></h3>
+              <p>UK and US government yield curves, fitted month by month and forecast ahead.</p>
+              <p>Watch four decades of curves move, compare forecasts with what happened, and see how a curve shift changes a bond’s price.</p>
+              <a class="open" href="https://yield-curve-forecasting.streamlit.app" target="_blank" rel="noopener">Open the live dashboard ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-cat" id="spatial">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Area 03</span>
+          <h2>Geographical and spatial data</h2>
+          <p>Maps, places and routes: where things are, and how to get there.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card work-card reveal">
+            <a class="shot" href="https://uk-fashion-map.streamlit.app" target="_blank" rel="noopener" aria-label="Open the UK fashion map dashboard"><img src="assets/work/uk-fashion-map.webp" alt="Screenshot of the UK fashion map dashboard" width="1280" height="800" loading="lazy"></a>
+            <div class="body">
+              <h3><a href="https://uk-fashion-map.streamlit.app" target="_blank" rel="noopener">UK fashion map</a> <span class="live">LIVE</span></h3>
+              <p>Where the UK’s fashion businesses are, from design studios to mills, factories, shoemakers and shops.</p>
+              <p>Switch sectors, compare regions and council areas, and look up how specialised any place is.</p>
+              <a class="open" href="https://uk-fashion-map.streamlit.app" target="_blank" rel="noopener">Open the live dashboard ↗</a>
+            </div>
+          </article>
+          <article class="card work-card reveal">
+            <a class="shot" href="https://farzad-delivery-routes.streamlit.app" target="_blank" rel="noopener" aria-label="Open the Delivery route planner dashboard"><img src="assets/work/delivery-route-planner.webp" alt="Screenshot of the Delivery route planner dashboard" width="1280" height="800" loading="lazy"></a>
+            <div class="body">
+              <h3><a href="https://farzad-delivery-routes.streamlit.app" target="_blank" rel="noopener">Delivery route planner</a> <span class="live">LIVE</span></h3>
+              <p>The shortest route for a driver’s stops across central London, drawn on real roads.</p>
+              <p>Add postcodes, reroute, and see the best visiting order and drive time on the map.</p>
+              <a class="open" href="https://farzad-delivery-routes.streamlit.app" target="_blank" rel="noopener">Open the live dashboard ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="cta-box reveal">
+          <h2>Want something like this <span class="grad-text">for your data?</span></h2>
+          <p>Tell us the decision you need to make. We'll tell you honestly what the data can and can't answer.</p>
+          <a href="mailto:contact@innditech.com" class="btn btn-primary">contact@innditech.com →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <a href="index.html" class="brand"><span class="mark">iD</span><span>Inn<b>Di</b>Tech</span></a>
+      <div class="links"><a href="index.html#services">Services</a><a href="work.html">Work</a><a href="about.html">About</a><a href="mailto:contact@innditech.com">Contact</a></div>
+      <p>© <span data-year>2026</span> InnDiTech. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

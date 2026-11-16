@@ -18,18 +18,6 @@ document.querySelectorAll('.card').forEach((card) => {
   });
 });
 
-// Rotating word in the hero
-const rot = document.querySelector('.rotator');
-if (rot) {
-  const words = JSON.parse(rot.dataset.words);
-  let i = 0;
-  setInterval(() => {
-    i = (i + 1) % words.length;
-    rot.style.opacity = 0;
-    setTimeout(() => { rot.textContent = words[i]; rot.style.opacity = 1; }, 250);
-  }, 2400);
-  rot.style.transition = 'opacity .25s';
-}
 
 // Year in footer
 document.querySelectorAll('[data-year]').forEach((el) => (el.textContent = new Date().getFullYear()));
